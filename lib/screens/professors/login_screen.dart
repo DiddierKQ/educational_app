@@ -57,7 +57,7 @@ class _LoginProfessorScreenState extends State<LoginProfessorScreen> {
                     alignment: Alignment.center,
                     padding: const EdgeInsets.only(bottom: 28),
                     child: const Text(
-                      "Sign In as a student",
+                      "Sign In as a professor",
                       style: TextStyle(
                         color: CustomColors.secondaryColor,
                         fontSize: 28,
