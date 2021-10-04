@@ -1,20 +1,25 @@
+import 'package:educational_app/screens/professors/signin_screen.dart';
 import 'package:educational_app/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 import '../main_screen.dart';
 import 'package:get/get.dart';
 
-class LoginProfessor extends StatefulWidget {
-  const LoginProfessor({ Key? key }) : super(key: key);
+class LoginProfessorScreen extends StatefulWidget {
+  const LoginProfessorScreen({Key? key}) : super(key: key);
 
   @override
-  _LoginProfessorState createState() => _LoginProfessorState();
+  _LoginProfessorScreenState createState() => _LoginProfessorScreenState();
 }
 
-class _LoginProfessorState extends State<LoginProfessor> {
+class _LoginProfessorScreenState extends State<LoginProfessorScreen> {
+  // Textfield values
+  final TextEditingController _emailCtrl = TextEditingController();
+  final TextEditingController _passwordCtrl = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,      
+      backgroundColor: CustomColors.scaffoldBackgroundColor,
       body: GestureDetector(
         onTap: () {
           FocusScope.of(context).requestFocus(
@@ -52,7 +57,7 @@ class _LoginProfessorState extends State<LoginProfessor> {
                     alignment: Alignment.center,
                     padding: const EdgeInsets.only(bottom: 28),
                     child: const Text(
-                      "Sign In as a professor",
+                      "Sign In as a student",
                       style: TextStyle(
                         color: CustomColors.secondaryColor,
                         fontSize: 28,
@@ -62,9 +67,10 @@ class _LoginProfessorState extends State<LoginProfessor> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _emailCtrl,
                       keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -82,10 +88,11 @@ class _LoginProfessorState extends State<LoginProfessor> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _passwordCtrl,
                       keyboardType: TextInputType.text,
                       obscureText: true,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -109,7 +116,7 @@ class _LoginProfessorState extends State<LoginProfessor> {
                         minimumSize: const Size(double.infinity, 60),
                       ),
                       onPressed: () {
-                         Get.to(() => MainScreen(isStudent: false));
+                        Get.to(() => MainScreen(isStudent: false));
                       },
                       child: const Text('Log in',
                           style: TextStyle(color: Colors.white, fontSize: 24)),
@@ -125,7 +132,9 @@ class _LoginProfessorState extends State<LoginProfessor> {
                           color: CustomColors.mainColor,
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.to(() => const SignInProfessorScreen());
+                      },
                     ),
                   ),
                 ],

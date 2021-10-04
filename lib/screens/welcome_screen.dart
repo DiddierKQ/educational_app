@@ -104,7 +104,7 @@ class WelcomeScreen extends StatelessWidget {
                                   ),
                                   TextButton(
                                     onPressed: () {
-                                      Get.to(() => const LoginProfessor());
+                                      Get.to(() => const LoginProfessorScreen());
                                     },
                                     child: const Text(
                                       'I am a professor',

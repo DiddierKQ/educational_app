@@ -8,12 +8,14 @@ class SessionWidget extends StatelessWidget {
   String name;
   String timeBegins;
   String timeEnds;
+  bool isStudent;
 
   SessionWidget({
     Key? key,
     required this.name,
     required this.timeBegins,
     required this.timeEnds,
+    this.isStudent = true,
   }) : super(key: key);
 
   @override
@@ -43,9 +45,7 @@ class SessionWidget extends StatelessWidget {
         ],
       ),
       child: ListTile(
-        onTap: () {
-          
-        },
+        onTap: () {},
         leading: Container(
           height: double.infinity,
           width: 12,
@@ -68,17 +68,21 @@ class SessionWidget extends StatelessWidget {
             style: const TextStyle(fontSize: 20),
           ),
         ),
-        trailing: OutlinedButton(
-          style: OutlinedButton.styleFrom(
-            backgroundColor: CustomColors.mainColor,
-          ),
-          onPressed: () {           
-          },
-          child: const Text(
-            'Join',
-            style: TextStyle(color: Colors.white, fontSize: 24),
-          ),
-        ),
+        trailing: isStudent
+            ? OutlinedButton(
+                style: OutlinedButton.styleFrom(
+                  backgroundColor: CustomColors.mainColor,
+                ),
+                onPressed: () {},
+                child: const Text(
+                  'Join',
+                  style: TextStyle(color: Colors.white, fontSize: 24),
+                ),
+              )
+            : IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.arrow_forward),
+              ),
       ),
     );
   }

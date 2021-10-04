@@ -1,14 +1,22 @@
 import 'package:educational_app/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 
-class SignInStudent extends StatefulWidget {
-  const SignInStudent({ Key? key }) : super(key: key);
+class SignInStudentScreen extends StatefulWidget {
+  const SignInStudentScreen({ Key? key }) : super(key: key);
 
   @override
-  _SignInStudentState createState() => _SignInStudentState();
+  _SignInStudentScreenState createState() => _SignInStudentScreenState();
 }
 
-class _SignInStudentState extends State<SignInStudent> {
+class _SignInStudentScreenState extends State<SignInStudentScreen> {
+  
+  // Textfield values
+  final TextEditingController _nameCtrl = TextEditingController();
+  final TextEditingController _lastnameCtrl = TextEditingController();
+  final TextEditingController _emailCtrl = TextEditingController();
+  final TextEditingController _passwordCtrl = TextEditingController();
+  final TextEditingController _confirmPasswordCtrl = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,10 +72,11 @@ class _SignInStudentState extends State<SignInStudent> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _nameCtrl,
                       keyboardType: TextInputType.text,
                       obscureText: true,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -85,10 +94,11 @@ class _SignInStudentState extends State<SignInStudent> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _lastnameCtrl,
                       keyboardType: TextInputType.text,
                       obscureText: true,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -106,9 +116,10 @@ class _SignInStudentState extends State<SignInStudent> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _emailCtrl,
                       keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -126,10 +137,11 @@ class _SignInStudentState extends State<SignInStudent> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _passwordCtrl,
                       keyboardType: TextInputType.text,
                       obscureText: true,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -147,10 +159,11 @@ class _SignInStudentState extends State<SignInStudent> {
                   ),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    child: const TextField(
+                    child: TextField(
+                      controller: _confirmPasswordCtrl,
                       keyboardType: TextInputType.text,
                       obscureText: true,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(

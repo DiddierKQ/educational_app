@@ -1,4 +1,5 @@
 import 'package:educational_app/screens/welcome_screen.dart';
+import 'package:educational_app/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -87,17 +88,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           ),
                           SizedBox(height: 30.0),
                           Text(
-                            'Connect people\naround the world',
+                            'TITLE',
                             style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 26.0,
-                              height: 1.5,
+                              color: CustomColors.secondaryColor,
+                              fontSize: 28.0,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           SizedBox(height: 15.0),
                           Text(
                             'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            //style: kSubtitleStyle,
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 24.0,
+                            ),
                           ),
                         ],
                       ),
@@ -118,17 +122,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           ),
                           SizedBox(height: 30.0),
                           Text(
-                            'Live your life smarter\nwith us!',
+                            'TITLE',
                             style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 26.0,
-                              height: 1.5,
+                              color: CustomColors.secondaryColor,
+                              fontSize: 28.0,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           SizedBox(height: 15.0),
                           Text(
                             'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            //style: kSubtitleStyle,
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 24.0,
+                            ),
                           ),
                         ],
                       ),
@@ -149,17 +156,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           ),
                           SizedBox(height: 30.0),
                           Text(
-                            'Get a new experience\nof imagination',
+                            'TITLE',
                             style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 26.0,
-                              height: 1.5,
+                              color: CustomColors.secondaryColor,
+                              fontSize: 28.0,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           SizedBox(height: 15.0),
                           Text(
                             'Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-                            //style: kSubtitleStyle,
+                            style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 24.0,
+                            ),
                           ),
                         ],
                       ),

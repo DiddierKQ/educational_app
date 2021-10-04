@@ -1,5 +1,7 @@
+import 'package:educational_app/screens/shared/edit_profile_screen.dart';
 import 'package:educational_app/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({Key? key}) : super(key: key);
@@ -11,7 +13,7 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-            return Stack(
+    return Stack(
       children: [
         Container(
           height: 200,
@@ -46,8 +48,37 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                 BorderRadius.all(Radius.circular(16))),
                         child: Column(
                           children: [
+                            Container(
+                              margin: const EdgeInsets.only(
+                                  left: 8, top: 8, right: 8, bottom: 8),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  const SizedBox(
+                                    width: 8.0,
+                                  ),
+                                  IconButton(
+                                    icon: const Icon(Icons.edit),
+                                    color: Colors.black,
+                                    iconSize: 24,
+                                    onPressed: () {
+                                      Get.to(
+                                        () => EditProfileScreen(
+                                            profilePicture:
+                                                "assets/users/my_profile.jpg",
+                                            name: "Diddier",
+                                            lastname: "Kantun",
+                                            email:
+                                                "Diddier.kantun@theksquaregroup.com"),
+                                      );
+                                    },
+                                  ),
+                                ],
+                              ),
+                            ),
                             const SizedBox(
-                              height: 88.0,
+                              height: 28.0,
                             ),
                             const Text(
                               "Diddier Kantun",
@@ -75,16 +106,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               width: double.infinity,
                               color: Colors.grey.shade200,
                             ),
-                            //buildListView()
                             Expanded(
                               child: ListView(
                                 children: [
                                   ListTile(
                                     onTap: () {},
-                                    leading: const Icon(
-                                        Icons.account_circle_outlined),
+                                    leading: const Icon(Icons.settings),
                                     title: const Text(
-                                      "My account",
+                                      "Settings",
                                       style: TextStyle(
                                         fontSize: 20,
                                       ),
@@ -99,6 +128,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                     ),
                                   ),
                                   ListTile(
+                                    onTap: () {},
                                     leading: const Icon(
                                       Icons.notifications_active_outlined,
                                       size: 28,
@@ -121,17 +151,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   ListTile(
                                     onTap: () {},
                                     leading: const Icon(
-                                      Icons.shopping_bag_outlined,
+                                      Icons.info_outline_rounded,
                                       size: 28,
                                     ),
                                     title: const Text(
-                                      "My orders",
+                                      "About",
                                       style: TextStyle(
                                         fontSize: 20,
                                       ),
                                     ),
                                     subtitle: const Text(
-                                      "Manage orders.",
+                                      "Legal information about the app.",
                                       style: TextStyle(fontSize: 16),
                                     ),
                                     trailing: IconButton(
@@ -142,40 +172,23 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   ListTile(
                                     onTap: () {},
                                     leading: const Icon(
-                                      Icons.maps_home_work_outlined,
+                                      Icons.exit_to_app_outlined,
                                       size: 28,
                                     ),
                                     title: const Text(
-                                      "My addresses",
+                                      "Log out",
                                       style: TextStyle(
                                         fontSize: 20,
                                       ),
                                     ),
                                     subtitle: const Text(
-                                      "Manage delivery addresses.",
+                                      "Close the current session.",
                                       style: TextStyle(fontSize: 16),
                                     ),
                                     trailing: IconButton(
                                       onPressed: () {},
                                       icon: const Icon(Icons.arrow_forward),
                                     ),
-                                  ),
-                                  const ListTile(
-                                    leading: Icon(
-                                      Icons.payment_outlined,
-                                      size: 28,
-                                    ),
-                                    title: Text(
-                                      "Payment methods",
-                                      style: TextStyle(
-                                        fontSize: 20,
-                                      ),
-                                    ),
-                                    subtitle: Text(
-                                      "Manage payment methods.",
-                                      style: TextStyle(fontSize: 16),
-                                    ),
-                                    trailing: Icon(Icons.arrow_forward),
                                   ),
                                 ],
                               ),
@@ -205,7 +218,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ],
                 ),
-              ),             
+              ),
             ),
             Expanded(
               child: Container(),
