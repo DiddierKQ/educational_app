@@ -1,16 +1,39 @@
-# educational_app
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-A new Flutter project.
+Screenshots
 
-## Getting Started
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture1.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture1.png)
 
-This project is a starting point for a Flutter application.
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture2.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture2.png)
 
-A few resources to get you started if this is your first Flutter project:
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture3.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture3.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture4.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture4.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture5.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture5.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture6.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture6.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture7.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture7.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture8.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture8.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture9.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture9.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture10.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture10.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture11.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture11.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture12.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture12.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture13.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture13.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture14.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture14.png)
+
+[![Screenshot](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture15.png)](https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture15.png)
+
+<!-- AUTHOR -->
+## Author
+
+* **Diddier Kantun** - *Development and documentation* - [DiddierKantun](https://github.com/DiddierKQ)
