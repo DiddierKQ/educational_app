@@ -72,13 +72,18 @@ class _AddAnnouncementProfessorScreenState extends State<AddAnnouncementProfesso
                         borderSide: BorderSide(
                             color: CustomColors.mainColor, width: 2.0),
                       ),
-                      label: Text(
-                        "Title",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Title",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Title",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -94,13 +99,18 @@ class _AddAnnouncementProfessorScreenState extends State<AddAnnouncementProfesso
                         borderSide: BorderSide(
                             color: CustomColors.mainColor, width: 2.0),
                       ),
-                      label: Text(
-                        "Description",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Description",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Description",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),                 
@@ -117,13 +127,18 @@ class _AddAnnouncementProfessorScreenState extends State<AddAnnouncementProfesso
                           width: 2.0,
                         ),
                       ),
-                      label: Text(
-                        "Importance",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Importance",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Importance",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),

@@ -2,14 +2,14 @@ import 'package:educational_app/utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 
 class AddSessionProfessorScreen extends StatefulWidget {
-  const AddSessionProfessorScreen({ Key? key }) : super(key: key);
+  const AddSessionProfessorScreen({Key? key}) : super(key: key);
 
   @override
-  _AddSessionProfessorScreenState createState() => _AddSessionProfessorScreenState();
+  _AddSessionProfessorScreenState createState() =>
+      _AddSessionProfessorScreenState();
 }
 
 class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
-
   // Textfield values
   final TextEditingController _titleCtrl = TextEditingController();
   final TextEditingController _descriptionCtrl = TextEditingController();
@@ -50,7 +50,7 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
           ),
           child: SingleChildScrollView(
             child: Column(
-              children: [                 
+              children: [
                 Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.only(bottom: 28),
@@ -74,13 +74,18 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                         borderSide: BorderSide(
                             color: CustomColors.mainColor, width: 2.0),
                       ),
-                      label: Text(
-                        "Title",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Title",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Title",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -88,7 +93,7 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                   padding: const EdgeInsets.all(12),
                   child: TextField(
                     maxLines: 3,
-                    keyboardType: TextInputType.text,                      
+                    keyboardType: TextInputType.text,
                     controller: _descriptionCtrl,
                     decoration: const InputDecoration(
                       border: OutlineInputBorder(),
@@ -96,13 +101,18 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                         borderSide: BorderSide(
                             color: CustomColors.mainColor, width: 2.0),
                       ),
-                      label: Text(
-                        "Description",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,                           
-                        ),
+                      labelText: "Description",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Description",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -117,13 +127,18 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                         borderSide: BorderSide(
                             color: CustomColors.mainColor, width: 2.0),
                       ),
-                      label: Text(
-                        "Date",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Date",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Date",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -140,13 +155,18 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                           width: 2.0,
                         ),
                       ),
-                      label: Text(
-                        "Time",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Time",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Time",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -163,13 +183,18 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                           width: 2.0,
                         ),
                       ),
-                      label: Text(
-                        "Participants",
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.grey,
-                        ),
+                      labelText: "Participants",
+                      labelStyle: TextStyle(
+                        fontSize: 20,
+                        color: Colors.grey,
                       ),
+                      // label: Text(
+                      //   "Participants",
+                      //   style: TextStyle(
+                      //     fontSize: 20,
+                      //     color: Colors.grey,
+                      //   ),
+                      // ),
                     ),
                   ),
                 ),
@@ -180,9 +205,7 @@ class _AddSessionProfessorScreenState extends State<AddSessionProfessorScreen> {
                       backgroundColor: CustomColors.mainColor,
                       minimumSize: const Size(double.infinity, 60),
                     ),
-                    onPressed: () {
-                      
-                    },
+                    onPressed: () {},
                     child: const Text('Create session',
                         style: TextStyle(color: Colors.white, fontSize: 24)),
                   ),

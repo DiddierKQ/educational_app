@@ -12,15 +12,14 @@ class LoginUserScreen extends StatefulWidget {
 }
 
 class _LoginUserScreenState extends State<LoginUserScreen> {
-
   // Textfield values
   final TextEditingController _emailCtrl = TextEditingController();
   final TextEditingController _passwordCtrl = TextEditingController();
 
   @override
-  Widget build(BuildContext context) {   
+  Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: CustomColors.scaffoldBackgroundColor,     
+      backgroundColor: CustomColors.scaffoldBackgroundColor,
       body: GestureDetector(
         onTap: () {
           FocusScope.of(context).requestFocus(
@@ -77,13 +76,18 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Email address",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Email address",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Email address",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -99,13 +103,18 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Password",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Password",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Password",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),

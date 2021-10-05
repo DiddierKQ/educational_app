@@ -76,13 +76,18 @@ class _LoginProfessorScreenState extends State<LoginProfessorScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Email address",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Email address",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Email address",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -98,13 +103,18 @@ class _LoginProfessorScreenState extends State<LoginProfessorScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Password",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Password",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Password",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),

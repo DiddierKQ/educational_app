@@ -63,7 +63,7 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                     alignment: Alignment.center,
                     padding: const EdgeInsets.only(bottom: 28),
                     child: const Text(
-                      "Sign Up",
+                      "Sign Up as a student",
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -82,13 +82,18 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Name",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Name",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Name",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -104,13 +109,18 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Last name",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Last name",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Last name",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -125,13 +135,18 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0),
                         ),
-                        label: Text(
-                          "Email address",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Email address",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Email address",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -147,13 +162,18 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0,),
                         ),
-                        label: Text(
-                          "Password",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Password",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Password",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
@@ -169,13 +189,18 @@ class _SignInStudentScreenState extends State<SignInStudentScreen> {
                           borderSide: BorderSide(
                               color: CustomColors.mainColor, width: 2.0,),
                         ),
-                        label: Text(
-                          "Confirm password",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.grey,
-                          ),
+                        labelText: "Confirm password",
+                        labelStyle: TextStyle(
+                          fontSize: 20,
+                          color: Colors.grey,
                         ),
+                        // label: Text(
+                        //   "Confirm password",
+                        //   style: TextStyle(
+                        //     fontSize: 20,
+                        //     color: Colors.grey,
+                        //   ),
+                        // ),
                       ),
                     ),
                   ),
