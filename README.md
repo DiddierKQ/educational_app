@@ -8,9 +8,9 @@
 ### Screenshots
 
 <p align="left" width="100%">
-    <img width="30%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture1.png">
-    <img width="30%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture2.png">
-    <img width="30%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture3.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture1.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture2.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture3.png">
 </p>
 
 <p align="left" width="100%">
