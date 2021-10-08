@@ -14,27 +14,27 @@
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture4.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture5.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture6.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture4.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture5.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture6.png">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture7.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture8.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture9.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture7.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture8.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture9.png">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture10.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture11.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture12.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture10.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture11.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture12.png">
 </p>
 
 <p align="left" width="100%">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture13.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture14.png">
-    <img width="33%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture15.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture13.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture14.png">
+    <img width="32%" src="https://github.com/DiddierKQ/educational_app/blob/master/assets/screenshots/Capture15.png">
 </p>
 
 <!-- AUTHOR -->
